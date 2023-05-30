@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author simma
+ *
+ */
+module New {
+}
