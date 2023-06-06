@@ -1,4 +1,4 @@
-package Day1;
+package d06052023;
 import java.util.*;
 
 public class Person {

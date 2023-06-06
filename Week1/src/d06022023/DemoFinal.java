@@ -1,4 +1,4 @@
-package Day4;
+package d06022023;
 
 final class DemoFinal{
 	final double pi=3.147;
