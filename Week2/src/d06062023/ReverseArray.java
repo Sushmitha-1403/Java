@@ -13,11 +13,18 @@ public class ReverseArray {
 		for(int i=0; i<size;i++) {
 			arr[i]=sc.nextInt();
 		}
+		int rev[]=new int[size];
+		int j=0;
 		
-		System.out.println("Reversed array:");
 		for(int i=size-1;i>=0;i--) {
-			System.out.println(arr[i]);
+			rev[j]=arr[i];
+			j++;
 		}
+		System.out.println("Reversed array:");
+		for(int i=0;i<size;i++) {
+			System.out.println(""+rev[i]);
+		}
+		
 	}
 
 }
