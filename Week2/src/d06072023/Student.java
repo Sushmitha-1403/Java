@@ -13,18 +13,6 @@ public class Student implements Comparable<Student>{
 		this.gpa=gpa;
 	}
 	
-	  public String getFirstname() {
-	        return firstname;
-	    }
-
-	    public String getLastname() {
-	        return lastname;
-	    }
-
-	    public double getGpa() {
-	        return gpa;
-	    }
-	
 	
 	public String toString() {
 		return firstname+" "+lastname+ " "+gpa;
