@@ -13,7 +13,7 @@ public class Parsing {
 			System.out.println(parse("23"));
 			System.out.println(parse("45.67"));
 			System.out.println(parse("test"));
-			System.out.println(parse("123f"));
+			//System.out.println(parse("123f"));
 		}
 			
 		
